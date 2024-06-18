@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="mid.app.midterm.Controller">
+    <TableView fx:id="tableView">
+        <columns>
+            <TableColumn text="Student Number" fx:id="studentNumberColumn"/>
+            <TableColumn text="First Name" fx:id="firstNameColumn"/>
+            <TableColumn text="Last Name" fx:id="lastNameColumn"/>
+            <TableColumn text="Telephone" fx:id="telephoneColumn"/>
+            <TableColumn text="Address" fx:id="addressColumn"/>
+            <TableColumn text="Province" fx:id="provinceColumn"/>
+            <TableColumn text="Average Grade" fx:id="averageGradeColumn"/>
+            <TableColumn text="Major" fx:id="majorColumn"/>
+        </columns>
+    </TableView>
+</VBox>
